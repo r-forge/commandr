@@ -1,5 +1,5 @@
 ### Simple implementation of command using a closure
-setClassUnion("OptionalFunction", c("function", "NULL"))
+## setClassUnion("OptionalFunction", c("function", "NULL"))
 
 setClass("Operation",
          representation(do = "function", undo = "OptionalFunction"),
